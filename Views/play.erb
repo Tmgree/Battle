@@ -1,0 +1,12 @@
+
+<%= @game.player1.name %> Vs. <%= @game.player2.name %>
+
+<br>
+<%= @game.array[0].name %>: <%= @game.array[0].hp %>
+<br>
+<%= @game.array[1].name %>: <%= @game.array[1].hp %>
+<form action="/attack">
+  <input type="submit" value="Attack"/>
+</form>
+
+<br>
